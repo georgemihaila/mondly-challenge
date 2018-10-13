@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2018
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "asp-core-api", "asp-core-api\asp-core-api.csproj", "{981C1830-8F1C-4D10-AF8E-B6D526706841}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "asp-core-mvc", "asp-core-mvc\asp-core-mvc.csproj", "{B6F06854-7F4F-498E-B39B-6B3ABA6CEC95}"
 EndProject
 Global
@@ -13,10 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{981C1830-8F1C-4D10-AF8E-B6D526706841}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{981C1830-8F1C-4D10-AF8E-B6D526706841}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{981C1830-8F1C-4D10-AF8E-B6D526706841}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{981C1830-8F1C-4D10-AF8E-B6D526706841}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B6F06854-7F4F-498E-B39B-6B3ABA6CEC95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B6F06854-7F4F-498E-B39B-6B3ABA6CEC95}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6F06854-7F4F-498E-B39B-6B3ABA6CEC95}.Release|Any CPU.ActiveCfg = Release|Any CPU

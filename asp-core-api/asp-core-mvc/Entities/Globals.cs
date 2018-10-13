@@ -1,4 +1,5 @@
-﻿using System;
+﻿using asp_core_mvc.Controllers;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -7,7 +8,7 @@ namespace asp_core_mvc.Entities
 {
     public static class Globals
     {
-        public static QuestionCollection Questions => new QuestionCollection(new List<IQuestion>()
+        public static QuestionCollection Questions => new QuestionCollection(new List<MultipleAnswerQuestion>()
             {
                 new MultipleAnswerQuestion()
                 {
@@ -76,6 +77,25 @@ namespace asp_core_mvc.Entities
                 },
             });
 
-        public static List<Session> Sessions { get; set; } = new List<Session>();
+        public static SessionCollection SessionCollection { get; set; }
+
+        private static Random Random { get; set; } = new Random();
+
+        public static List<MultipleAnswerQuestion> GetRandomQuestions(int count)
+        {
+            if (count > Questions.MultipleAnswerQuestions.Count)
+                throw new ArgumentOutOfRangeException("Invalid question count");
+            var questions = new List<MultipleAnswerQuestion>();
+            for (int i = 0; i < count; i++)
+            {
+                var q = Questions.MultipleAnswerQuestions[Random.Next(Questions.MultipleAnswerQuestions.Count)];
+                questions.Add(q);
+            }
+            return questions;
+        }
+        
+        public static string Failure => "{\"success\":\"false\"}";
+
+        public static string Success => "{\"success\":\"true\"}";
     }
 }
