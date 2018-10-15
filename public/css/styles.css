@@ -1,0 +1,9 @@
+.vertical-spacer {
+    height: 24px;
+    width: 100%;
+    padding-top: 2px;
+}
+
+.status-card-user-name, .status-card-user-icon{
+    display: inline-block;
+}

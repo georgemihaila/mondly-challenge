@@ -1,0 +1,29 @@
+<div class="row">
+        <div id="progressContainer" class="col-md-12 col-lg-12">
+        </div>
+        <div class="vertical-spacer"></div>
+        <div class="col-md-12 col-lg-12">
+            Question ${props.currentQuestion.number} / ${store.questions.total}
+        </div>
+        <div class="col-md-3 col-lg-3">
+            ${props.statusBoxesHtml}
+        </div>
+        <div class="col-md-8 col-lg-8">
+            <div class="card">
+    
+    
+                <div class="card-body">
+                    ${ title }
+                </div>
+    
+                <ul class="list-group list-group-flush">
+                    ${props.currentQuestion.answersHtml}
+                </ul>
+                <div class="card-body">
+                    <a href="" class="btn btn-primary" id="submitAnswer">Submit answer</a>
+                </div>
+            </div>  
+        </div>
+    </div>
+    <div class="row">
+    </div>

@@ -1,0 +1,30 @@
+    <div class="row">
+        <div class="col-md-6 col-lg-6">
+        <div class="card">
+        <img class="card-img-top" src="./img/player-class.jpg" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Choose game type</h5>
+            <p class="card-text">Choose the type of game you wish to participate in.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+            ${props.gameTypeChoicesHtml}
+        </ul>
+        </div>
+    </div>
+    <div class="col-md-6 col-lg-6">
+        <div class="card">
+        <img class="card-img-top" src="./img/player-class.jpg" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Choose your class</h5>
+            <p class="card-text">Choose the class you want to be. Choosing a class will slightly tip your odds of finding questions in your area of expertise in your favour, but it also increases the threat different powerups pose to you.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+            ${props.classChoicesHtml}
+        </ul>
+        </div>
+    </div>
+    <div class="vertical-spacer"></div>
+    <div class="col-md-12 col-lg-12">
+        <button type="submit" class="btn btn-primary col-lg-12" id="ready">Ready!</button>
+    </div>
+</div>
