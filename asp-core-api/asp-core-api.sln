@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2018
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "asp-core-backend", "asp-core-backend\asp-core-backend.csproj", "{21CB4F43-0E26-4913-BCF2-FC27EE7F2C1D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "asp-core-mvc", "asp-core-mvc\asp-core-mvc.csproj", "{B6F06854-7F4F-498E-B39B-6B3ABA6CEC95}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{21CB4F43-0E26-4913-BCF2-FC27EE7F2C1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{21CB4F43-0E26-4913-BCF2-FC27EE7F2C1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{21CB4F43-0E26-4913-BCF2-FC27EE7F2C1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{21CB4F43-0E26-4913-BCF2-FC27EE7F2C1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6F06854-7F4F-498E-B39B-6B3ABA6CEC95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6F06854-7F4F-498E-B39B-6B3ABA6CEC95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6F06854-7F4F-498E-B39B-6B3ABA6CEC95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6F06854-7F4F-498E-B39B-6B3ABA6CEC95}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {0203576F-8E1F-403F-90F1-7D42A5B32AEF}
+		SolutionGuid = {BF562D9A-55A7-4390-BD59-8192D0DEB958}
 	EndGlobalSection
 EndGlobal

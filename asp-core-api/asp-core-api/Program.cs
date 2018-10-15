@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
-namespace asp_core_backend
+namespace asp_core_api
 {
     public class Program
     {
@@ -19,6 +19,8 @@ namespace asp_core_backend
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
+            .UseKestrel()
+            .UseIISIntegration()
                 .UseStartup<Startup>();
     }
 }
